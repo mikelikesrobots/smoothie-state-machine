@@ -1,0 +1,8 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "${workspaceFolder}/handlers/rust-available-robot/Cargo.toml",
+        "${workspaceFolder}/handlers/rust-send-mqtt/Cargo.toml",
+        "${workspaceFolder}/handlers/rust-send-task-success/Cargo.toml",
+        "${workspaceFolder}/handlers/rust-update-status/Cargo.toml"
+    ]
+}

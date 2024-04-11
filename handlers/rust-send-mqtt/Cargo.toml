@@ -1,0 +1,17 @@
+[package]
+name = "rust-send-mqtt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aws-config = "1.1.6"
+aws-sdk-iotdataplane = "1.17.0"
+aws-smithy-types = "1.1.8"
+lambda_runtime = "0.6.1"
+serde = "1.0.136"
+serde_json = "1.0.85"
+tokio = { version = "1", features = ["macros"] }
+tracing = { version = "0.1", features = ["log"] }
+tracing-subscriber = { version = "0.3", default-features = false, features = ["fmt"] }
